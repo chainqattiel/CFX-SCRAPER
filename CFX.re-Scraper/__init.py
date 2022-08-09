@@ -5,8 +5,6 @@ import datetime
 import requests
 import json
 
-
-
 def RoundError(Status, CurrentIssue, CurrentMS):
     if Status == "All Systems Operational":
         TableStatus['Status'] = "\033[92mAll Systems Operational\033[0m"
@@ -25,7 +23,7 @@ try:
     convertJson = request_get.json()
     convertJsonv2 = request_getv2.json()
     RoundError(convertJson['status']['description'], convertJson['status']['indicator'], round(convertJsonv2['summary']['mean'], 0)  )
-except Exception as e:
+except Exception as e: # Failed to get information (Connectivity issue?)
     TableStatus['Status'] = "\033[91mFailed To Fetch\033[0m"
     TableStatus['CurrentIssue'] = "\033[91mErr\033[0m"
     TableStatus['CurrentMS'] = "\033[91mErr\033[0m"
