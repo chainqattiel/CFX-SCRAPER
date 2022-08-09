@@ -94,3 +94,26 @@ I am *NOT* responsible for any user that **misuses** this tool to promote or tak
 
 
 
+
+
+<details>
+<summary>txTracker</summary>
+<h1 >txTracker <img src="https://user-images.githubusercontent.com/54733885/183686511-d25e0e2c-78d9-4e32-81f4-48a1642b7c57.png" height=30; width=30;/></h1>
+<b>Description:</b> Check how many servers have a certain resource and track which servers are highly rated<br>
+<b>Credits:</b> Tabby<br>
+<b>Discord Bot Invite:</b> <a href="discord.gg/txadmin">Click Me!</a><br><br>
+<table style="background-color: #ccc;">
+<tr>
+<td>
+<img src="https://user-images.githubusercontent.com/54733885/183687122-056f3431-c88a-415e-a355-461549592afc.png"/>
+</td>
+<td>
+<img src="https://user-images.githubusercontent.com/54733885/183687326-e5a0571d-1a04-432e-a191-780c6c7983fa.png"/>
+</td>
+</tr>
+</table>
+</details>
+
+
+
+
