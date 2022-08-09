@@ -6,6 +6,7 @@ import requests
 import json
 
 
+
 def RoundError(Status, CurrentIssue, CurrentMS):
     if Status == "All Systems Operational":
         TableStatus['Status'] = "\033[92mAll Systems Operational\033[0m"
@@ -13,17 +14,21 @@ def RoundError(Status, CurrentIssue, CurrentMS):
     else:
         TableStatus['Status'] = "\033[91mAll Systems Not Operational\033[0m"
         TableStatus['CurrentIssue'] = "\033[91m"+CurrentIssue+"\033[0m"
-    if int(CurrentMS) < 260:
+    if int(CurrentMS) < 273:
         TableStatus['CurrentMS'] = "\033[92m" + str(CurrentMS) + "\033[0m"
     else:
         TableStatus['CurrentMS'] = "\033[91m" + str(CurrentMS) + "\033[0m"
-
-request_get = requests.get('https://status.cfx.re/api/v2/status.json')
-request_getv2 = requests.get('https://status.cfx.re/metrics-display/1hck2mqcgq3h/day.json')
-convertJson = request_get.json()
-convertJsonv2 = request_getv2.json()
 TableStatus = {"Status": "","CurrentMS": "","CurrentIssue": "",}
-RoundError(convertJson['status']['description'], convertJson['status']['indicator'], round(convertJsonv2['summary']['mean'], 0)  )
+try:
+    request_get = requests.get('https://status.cfx.re/api/v2/status.json')
+    request_getv2 = requests.get('https://status.cfx.re/metrics-display/1hck2mqcgq3h/day.json')
+    convertJson = request_get.json()
+    convertJsonv2 = request_getv2.json()
+    RoundError(convertJson['status']['description'], convertJson['status']['indicator'], round(convertJsonv2['summary']['mean'], 0)  )
+except Exception as e:
+    TableStatus['Status'] = "\033[91mFailed To Fetch\033[0m"
+    TableStatus['CurrentIssue'] = "\033[91mErr\033[0m"
+    TableStatus['CurrentMS'] = "\033[91mErr\033[0m"
 
 
 _Logo_ = """
