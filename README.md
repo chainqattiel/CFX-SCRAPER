@@ -6,7 +6,8 @@
 <a href="https://discordapp.com/users/359794704847601674"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Kiyomi#9081" ></a>
 
 ## ❌ Description
-A python/javascript based scraper for FiveM that does a decent amount of dedicated scraping for your needs.
+CFX.re Scraping - Extract information regarding players, server resources, server names, and more!
+Unlike other scrapers, we offer a base script so you can easily add your own features.
 - Server Searching
    - Name
    - Unique ID
