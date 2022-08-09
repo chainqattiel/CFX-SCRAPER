@@ -7,7 +7,7 @@
 
 ## ❌ Description
 CFX.re Scraping - Extract information regarding players, server resources, server names, and more!
-Unlike other scrapers, we offer a base script so you can easily add your own features.
+Unlike other scrapers, we offer a base script so you can easily add your own features. Have fun!
 - Server Searching
    - Name
    - Unique ID
