@@ -50,19 +50,6 @@ Unlike other scrapers, we offer a base script so you can easily add your own fea
 
 
 
-## 🖼️ Example
-<table style="background-color: #ccc;">
-<tr>
-<td>
-<img src="https://user-images.githubusercontent.com/54733885/183247475-b4770449-1bd8-4513-8a23-1eac18fbf586.png"/>
-</td>
-<td>
-<img src="https://user-images.githubusercontent.com/54733885/181283353-57968c45-0ce4-4483-b882-5a21d35b0f51.gif"/>
-</td>
-</tr>
-</table>
-
-
 ## ❌ Disclaimer
 I am *NOT* responsible for any user that **misuses** this tool to promote or take action upon a user. :)
 
