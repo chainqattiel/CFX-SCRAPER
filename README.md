@@ -115,5 +115,24 @@ I am *NOT* responsible for any user that **misuses** this tool to promote or tak
 </details>
 
 
+<details>
+<summary>Reviewer</summary>
+<h1 >Reviewer <img src="https://cdn.discordapp.com/avatars/359794704847601674/a_cd48a2f37df10e9cf6be2daccc7489dd.gif?size=1024" height=30; width=30;/></h1>
+<b>Description:</b> Check the highest rated server and what servers have recommended/non-recommended reviews<br>
+<b>Credits:</b> K3YOMI<br>
+<b>Discord Bot Invite:</b> In Development<br><br>
+<table style="background-color: #ccc;">
+<tr>
+<td>
+
+<img src="https://user-images.githubusercontent.com/54733885/183943876-130ce9f6-f850-4741-aae0-7b82f10d2b81.png"/>
+</td>
+<td>
+<img src="https://user-images.githubusercontent.com/54733885/183944124-b96c200d-e120-4e10-812c-31a48b99436a.png"/>
+</td>
+</tr>
+</table>
+</details>
+
 
 
